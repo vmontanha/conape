@@ -151,10 +151,6 @@ section {
     top: -100%;
   }
 
-  .header .navbar a:last-child {
-    display: none;
-  }
-
   .header .hamburger {
     display: block;
   }
