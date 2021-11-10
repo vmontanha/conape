@@ -72,7 +72,7 @@ section {
 }
 
 .logo {
-  width: 50%;
+  width: auto;
   height: 150%;
 }
 
@@ -373,6 +373,22 @@ section.app {
   padding: 22rem 0;
 }
 
+.app-btn {
+display: inline-block;
+color: var(--white);
+font-weight: 500;
+border-radius: 0.5rem;
+background-color: var(--black);
+padding: 1rem 1.5rem;
+transition: var(--transition);
+}
+
+.app-btn:hover {
+transform: scale(1.1);
+color: var(--yellow);
+
+}
+
 section.app .image {
   position: absolute;
   left: 15%;
@@ -380,6 +396,7 @@ section.app .image {
 
 section.app .image img {
   width: 100%;
+  
 }
 
 section.app .content {
@@ -437,25 +454,12 @@ section.app .content .links img {
 
 /* Footer */
 
-.footer .top {
-  background-color: var(--footer-yellow);
-  padding: 10rem 9%;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-}
-
-.footer .top .links {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 3rem;
-}
-
 .footer .bottom {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 1.5rem 0;
-  background-color: var(--deep-yellow);
+  background-color: var(--yellow);
 }
 
 .footer .top .content p {
