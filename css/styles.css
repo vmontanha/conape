@@ -107,6 +107,7 @@ section {
 
 .btn:hover {
   box-shadow: var(--box-shadow);
+  color: #fcc14c;
 }
 
 .header .hamburger img {
