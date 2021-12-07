@@ -394,10 +394,27 @@ section.app .image {
   position: absolute;
   left: 15%;
 }
+section.app #contact {
+  position: absolute;
+  left: 10%;
+}
+section.app #contact img {
+ width: 100%;
+}
 
 section.app .image img {
   width: 100%;
   
+}
+
+@media  screen and (min-width: 1200px) {
+          section.app #contact {
+                    position: absolute;
+                    left: 5%;
+          }
+          section.app #contact img {
+          width: 60%;
+          }    
 }
 
 section.app .content {
