@@ -373,6 +373,18 @@ section.app {
   position: relative;
   padding: 22rem 0;
 }
+section.contact {
+  border-radius: 0.5rem;
+  background-color: var(--yellow);
+  align-items: center;
+  position: relative;
+  padding: 5rem;
+  display: flex;
+  width: 82%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 9%;
+}
 
 .app-btn {
 display: inline-block;
@@ -394,32 +406,39 @@ section.app .image {
   position: absolute;
   left: 15%;
 }
-section.app #contact {
-  position: absolute;
-  left: 10%;
-}
-section.app #contact img {
- width: 100%;
-}
 
 section.app .image img {
   width: 100%;
   
 }
 
-@media  screen and (min-width: 1200px) {
-          section.app #contact {
-                    position: absolute;
-                    left: 5%;
-          }
-          section.app #contact img {
-          width: 60%;
-          }    
-}
-
 section.app .content {
   position: absolute;
   right: 5%;
+  width: 45%;
+}
+
+section.contact .content-contact h3 {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+section.app .content p {
+  margin-bottom: 3rem;
+}
+
+section.app .content .links img {
+  margin-right: 3rem;
+}
+section.contact .content {
+  position: absolute;
+  right: 5%;
+  width: 45%;
+}
+section.app #contact {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
   width: 45%;
 }
 
@@ -447,11 +466,26 @@ section.app .content .links img {
     display: none;
   }
 
+
+  section.contact {
+            display: block;
+            
+  }
+  section.contact .image{
+            display: none;
+
+  }
+
   section.app {
     grid-template-columns: 1fr;
     padding: 20rem 0;
     margin: 5rem 9%;
   }
+
+  section.contact .content-contact h3 {
+          font-size: 3rem;
+          margin-bottom: 3rem;
+        }
 
   section.app .content {
     width: 85%;
