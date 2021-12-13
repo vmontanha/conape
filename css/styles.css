@@ -328,6 +328,7 @@ section.about {
 .about .content h3 {
   font-size: 4rem;
   margin-bottom: 2rem;
+  text-transform: uppercase;
 }
 
 .about .content p {
@@ -354,6 +355,7 @@ section.about {
   .about .content h3 {
     font-size: 3rem;
     margin-bottom: 1rem;
+    text-transform: uppercase;
   }
   .about .content p {
     width: 100%;
