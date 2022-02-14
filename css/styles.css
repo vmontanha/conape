@@ -252,9 +252,9 @@ section.services {
 }
 
 .services .bottom {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 3rem;
+  gap: 4rem;
 }
 
 .services .bottom .box {
@@ -373,7 +373,7 @@ section.app {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   position: relative;
-  padding: 22rem 0;
+  padding: 30rem;
 }
 section.contact {
   border-radius: 0.5rem;
@@ -414,6 +414,10 @@ section.app .image img {
   
 }
 
+.title-artigos {
+text-transform: uppercase;
+}
+
 section.app .content {
   position: absolute;
   right: 5%;
@@ -427,6 +431,14 @@ section.contact .content-contact h3 {
 
 section.app .content p {
   margin-bottom: 3rem;
+}
+
+.links-artigos {
+          background-color: transparent !important;
+}
+
+.links-artigos:hover {
+          color: #fff;
 }
 
 section.app .content .links img {
