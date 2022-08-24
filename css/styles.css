@@ -165,6 +165,18 @@ section {
           }
 }
 
+@media screen and (max-width: 768px) {
+          .video {
+                    width: 100%;
+          }
+}
+
+@media screen and (min-width: 769px) {
+          .video {
+                    width: 100%;
+          }
+}
+
 /* Home */
 .home {
           padding-top: 13rem;
