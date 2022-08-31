@@ -196,6 +196,14 @@ section {
           margin-bottom: 2rem;
 }
 
+.home .content h2 {
+          font-size: 3rem;
+          text-align: center;
+          font-weight: 700;
+          margin-bottom: 2rem;
+          width: 100%;
+}
+
 .home .content p {
           color: var(--grey);
           font-size: 1.8rem;
