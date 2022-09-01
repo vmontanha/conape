@@ -181,9 +181,13 @@ section {
 .home {
           padding-top: 13rem;
           display: grid;
-          grid-template-columns: 1fr 1fr 1fr;
+          grid-template-columns: 3fr 2fr 0fr;
           align-items: center;
-          gap: 2rem;
+          gap: 5rem;
+}
+
+.selo img {
+          max-width: 70%;
 }
 
 .home .image img {
@@ -198,7 +202,7 @@ section {
 
 .home .content h2 {
           font-size: 3rem;
-          text-align: center;
+          text-align: left;
           font-weight: 700;
           margin-bottom: 2rem;
           width: 100%;
