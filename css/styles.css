@@ -179,11 +179,12 @@ section {
 
 /* Home */
 .home {
+
           padding-top: 13rem;
           display: grid;
-          grid-template-columns: 3fr 2fr 0fr;
+          grid-template-columns: 1fr 1fr;
           align-items: center;
-          gap: 5rem;
+          gap: 2rem;
 }
 
 .selo img {
