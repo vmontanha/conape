@@ -182,6 +182,7 @@ section {
 
           padding-top: 13rem;
           display: grid;
+<<<<<<< HEAD
           grid-template-columns: 1fr 1fr;
           align-items: center;
           gap: 2rem;
@@ -189,6 +190,11 @@ section {
 
 .selo img {
           max-width: 70%;
+=======
+          grid-template-columns: 1fr 1fr 1fr;
+          align-items: center;
+          gap: 2rem;
+>>>>>>> parent of 5c555ec... final commit with video
 }
 
 .home .image img {
@@ -203,7 +209,7 @@ section {
 
 .home .content h2 {
           font-size: 3rem;
-          text-align: left;
+          text-align: center;
           font-weight: 700;
           margin-bottom: 2rem;
           width: 100%;
