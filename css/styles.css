@@ -181,23 +181,27 @@ section {
 .home {
 
           padding-top: 13rem;
-          display: grid;
-<<<<<<< HEAD
-          grid-template-columns: 1fr 1fr;
+          display: flex;
+          /* grid-template-columns: 1fr 1fr; */
+          /* gap: 2rem; */
           align-items: center;
-          gap: 2rem;
+          justify-content: center;
+          flex-wrap: wrap;
 }
 
 .selo img {
           max-width: 70%;
-=======
-          grid-template-columns: 1fr 1fr 1fr;
-          align-items: center;
-          gap: 2rem;
->>>>>>> parent of 5c555ec... final commit with video
 }
 
 .home .image img {
+          width: 100%;
+}
+
+.home .content {
+          width: 50%;
+}
+
+.home .content video {
           width: 100%;
 }
 
@@ -253,13 +257,15 @@ section {
                     margin-bottom: 1.5rem;
           }
 
-          .home {
-                    grid-template-columns: 1fr;
+          .home .content {
+                    width: 100%;
+                    margin-bottom: 100px;
           }
 
           .home .image {
                     max-width: 100rem;
                     margin: 0 auto;
+                    margin-bottom: 100px;
           }
 }
 
