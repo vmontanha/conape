@@ -362,6 +362,24 @@ section.services {
   }
 }
 
+.box.video {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 6rem;
+  margin-bottom: 6rem;
+}
+
+.box.video div {
+  display: block;
+  align-items: center;
+  width: 100%;
+}
+
+
+
+
+
 /* About */
 section.about {
   display: grid;
@@ -531,6 +549,22 @@ section.app .content .links img {
 @media (max-width: 768px) {
   section.app .image {
     display: none;
+  }
+
+  .box.video {
+    display: flex;
+    margin-bottom: 2rem;
+    flex-direction: column;
+  }
+
+  .box.video.left {
+    display: flex;
+    margin-bottom: 2rem;
+    flex-direction: column-reverse;
+  }
+
+  .box.video h1 {
+    margin-top: 2rem;
   }
 
 
