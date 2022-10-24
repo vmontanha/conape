@@ -185,8 +185,11 @@ section {
   /* grid-template-columns: 1fr 1fr; */
   /* gap: 2rem; */
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   flex-wrap: wrap;
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
+  align-content: space-around;
 }
 
 .selo img {
@@ -267,6 +270,37 @@ section {
     margin: 0 auto;
     margin-bottom: 100px;
   }
+
+  .abertura {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0 !important;
+    align-items: center;
+  }
+
+  .abertura .content {
+    width: 100%;
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  .abertura .video {
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+  }
+}
+
+.abertura {
+  width: 90%;
+  /* padding-left: 5%;
+  padding-right: 5%; */
+  display: flex;
+  gap: 6rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
 }
 
 /* Services */
