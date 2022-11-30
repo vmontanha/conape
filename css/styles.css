@@ -177,13 +177,10 @@ section {
   }
 }
 
-/* Home */
 .home {
 
   padding-top: 13rem;
   display: flex;
-  /* grid-template-columns: 1fr 1fr; */
-  /* gap: 2rem; */
   align-items: center;
   /* justify-content: center; */
   flex-wrap: wrap;
