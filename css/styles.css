@@ -124,6 +124,10 @@ section {
     height: 100%;
   }
 
+  .logo_old img {
+    width: 80%;
+  }
+
   .navbar a {
     padding: 0.5rem;
   }
