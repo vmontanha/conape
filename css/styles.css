@@ -120,6 +120,7 @@ section {
 @media (max-width: 996px) {
   .logo {
     width: 40%;
+    height: auto !important;
   }
 
   .logo_old img {
