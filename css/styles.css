@@ -72,8 +72,7 @@ section {
 }
 
 .logo {
-  width: auto;
-  height: 150%;
+  width: 25%;
 }
 
 .navbar a {
@@ -120,8 +119,12 @@ section {
 
 @media (max-width: 996px) {
   .logo {
-    width: 50%;
-    height: 100%;
+    width: 80%;
+    height: 50% !important;
+  }
+
+  .logo_old img {
+    width: 80%;
   }
 
   .navbar a {
