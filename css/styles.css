@@ -88,7 +88,6 @@ section {
 
 .navbar a:hover {
   color: var(--yellow);
-  border-color: var(--yellow);
 }
 
 .btn {
@@ -247,18 +246,42 @@ section {
   color: var(--white);
   font-weight: 500;
   border-radius: 50%;
-  background-color: #00bb2D;
+  background-color: transparent;
   padding: 0.5rem 1rem !important;
   transition: var(--transition);
 }
 
+.trinta-anos {
+  display: flex;
+  align-items: center;
+  color: #1f1f1f;
+  background-color: #00bb2D;
+  border-radius: 12px;
+  color: #fff !important;
+  width: auto;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.trinta-anos a {
+  text-transform: none !important;
+  color: #fff !important;
+}
+
+.trinta-anos i {
+  color: #fff !important;
+  margin-right: 2%;
+}
+
 .whatsapp-btn:hover {
-  transition: 0.8s ease-in-out;
-  transform: translate(0px, -5px)
+  transition: 0.8s ease-in-out !important;
+  transform: translate(0px, -5px) !important;
 }
 
 .whatsapp-btn i {
-  font-size: 1.5em;
+  font-size: 2em;
+  color: #00bb2D;
 }
 
 .home .content .home-btn:hover {
@@ -739,6 +762,34 @@ section.social i {
 
   }
 
+  .trinta-anos-mobile {
+    display: flex !important;
+    align-items: center;
+    background-color: #00bb2D;
+    border-radius: 12px;
+    color: #fff !important;
+    width: auto;
+    justify-content: center;
+    padding: 2rem 0 0 2rem;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+
+  .trinta-anos-mobile a {
+    text-transform: none !important;
+    color: #fff !important;
+  }
+
+  .trinta-anos-mobile i {
+    color: #fff !important;
+    margin-right: 5%;
+    font-size: 2.5rem;
+  }
+
+  .trinta-anos {
+    display: none;
+  }
 
   .whatsapp-btn-mobile {
     display: block;

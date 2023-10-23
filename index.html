@@ -75,21 +75,6 @@
       <i class="ri-menu-line"></i>
     </div>
   </header>
-  <script type="text/javascript">
-    (function () {
-      var options = {
-        whatsapp: "+5511992167318", // Número do WhatsApp
-        company_logo_url: "https://conape.com.br/images/logo_favicon.png", // URL com o logo da empresa
-        greeting_message: "Olá, pode me ajudar?", // Texto principal
-        call_to_action: "Olá, como podemos ajudar?", // Chamada para ação
-        position: "left", // Posição do widget na página 'right' ou 'left'
-      };
-      var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
-      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-      s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-    })();
-  </script>
   <!-- Home -->
   <section class="home" id="home">
     <div class="content">
@@ -108,11 +93,15 @@
         as exigências e especificações propostas pelas empresas, e que possibilitaram
         experiências e aperfeiçoamentos constantes.
       </p>
-      <a href="https://wa.me/5511992167318?text=Olá,%20Vim%20pelo%20site!" class="home-btn">Converse conosco agora <i
-          class="ri-whatsapp-line"></i></a>
     </div>
     <div class="image">
+
       <img src="./images/selo-30-anos.png" alt="" />
+      <a class="whatsapp-btn trinta-anos" href="https://wa.me/5511992167318?text=Olá,%20Vim%20pelo%20site!"><i
+          class="ri-whatsapp-line"></i> Chame a gente agora pelo Whatsapp!</a>
+      <a class="whatsapp-btn-mobile trinta-anos-mobile"
+        href="https://wa.me/5511992167318?text=Olá,%20Vim%20pelo%20site!"><i class="ri-whatsapp-line"></i> Fale conosco
+        agora!</a>
     </div>
     <div class="abertura">
       <div class="content">
@@ -128,8 +117,6 @@
         </p>
         <p>Temos a solução para recuperar esse saldo credor.
           Ligue ou agende uma reunião conosco.</p>
-        <a href="https://wa.me/5511992167318?text=Olá,%20Vim%20pelo%20site!" class="home-btn">Converse conosco agora <i
-            class="ri-whatsapp-line"></i></a>
       </div>
     </div>
   </section>
