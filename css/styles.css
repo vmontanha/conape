@@ -238,6 +238,29 @@ section {
   transition: var(--transition);
 }
 
+.whatsapp-btn-mobile {
+  display: none;
+}
+
+.whatsapp-btn {
+  display: inline-block;
+  color: var(--white);
+  font-weight: 500;
+  border-radius: 50%;
+  background-color: #00bb2D;
+  padding: 0.5rem 1rem !important;
+  transition: var(--transition);
+}
+
+.whatsapp-btn:hover {
+  transition: 0.8s ease-in-out;
+  transform: translate(0px, -5px)
+}
+
+.whatsapp-btn i {
+  font-size: 1.5em;
+}
+
 .home .content .home-btn:hover {
   transform: translateY(-3px);
   box-shadow: var(--box-shadow);
@@ -709,6 +732,22 @@ section.social i {
 
   .footer .top .content {
     display: none;
+  }
+
+  .whatsapp-btn {
+    display: none;
+
+  }
+
+
+  .whatsapp-btn-mobile {
+    display: block;
+    color: var(--white);
+    font-weight: 500;
+    border-radius: 2rem;
+    background-color: #00bb2D;
+    padding: 0.5rem 1.5rem !important;
+    transition: var(--transition);
   }
 }
 
