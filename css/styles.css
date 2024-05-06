@@ -249,6 +249,20 @@ section {
   }
 }
 
+@media (min-width: 768px) {
+  .home .image {
+    max-width: 100rem;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home {
+    align-items: baseline;
+  }
+}
+
 @media (max-width: 768px) {
   .home .content h1 {
     font-size: 3rem;
