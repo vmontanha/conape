@@ -8,7 +8,7 @@
   --bg-yellow: #ffb115;
   --btn-yellow: #080807;
   --footer-yellow: #fff9e9;
-  --grey: #737373;
+  --grey: #4d4d4d;
   --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
   --transition: all 0.2s linear;
 }
@@ -288,6 +288,10 @@ section {
   transform: translateY(-3px);
   box-shadow: var(--box-shadow);
 }
+
+/*------------------------------Alterações Eric------------------------------*/
+
+/*------------------------------Alterações Eric------------------------------*/
 
 @media (max-width: 999px) {
   .home .content h1 {
